@@ -1,5 +1,5 @@
 .centrebanner{
-  height: 1450px;
+  height: 1460px;
   width: 100%;
   background-color: #002b67;
   position: relative;
@@ -179,4 +179,97 @@
   
   
   
+}
+.centrebanner_downicons {
+position: absolute;
+  fill: #fff;
+  width: 100%;
+  height: 450px;
+  margin-top: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+.centrebanner_downicons_text{
+  width: 40%;
+ 
+  margin-left: 10%;
+}
+.centrebanner_downicons_text h1{
+  color: #fff;
+  
+  margin-top: 150px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 500;
+  width: 90%;
+margin-bottom: 30px;
+  
+}
+.centrebanner_downicons_icons{
+  width: 60%;
+  height: 250px;
+  margin-top: 150px;
+  margin-right: 5%;
+  margin-left: 4%;
+  
+  display: flex;
+  flex-direction: column;
+}
+.centrebanner_downicons_icons ul{
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.centrebanner_downicons_icons li{
+  
+  height: 55px;
+  width: 280px;
+  border-radius: 8px;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: 490;
+  color: #fff;
+  
+ 
+  
+}
+.centrebanner_downicons_icons span{
+  vertical-align: middle;
+  display: inline;
+  
+  
+  
+}
+.centrebanner_downicons_icons svg{
+  vertical-align: middle;
+  margin-right: 13px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.centrebanner_downicons_icons li:hover{
+  text-align: center;
+  background-color: #fff;
+  color: #6697E2;
+  fill: #6697E2;
+}
+
+
+.centrebanner_downicons_text a{
+  color: rgb(13, 242, 242);
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.right_arrow{
+  width: 18px;
+  margin-left: 5px;
+  margin-bottom: -3px;
+}
+.ribbon{
+  position: absolute;
+  bottom: 60px;
 }
